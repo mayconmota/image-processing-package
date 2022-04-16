@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: image-processing-test
+Version: 0.0.1
+Summary: Test version - Image processing. This project belongs to Karina Tiemi Kato, Tech Lead, Machine Learning Engineer, Data Scientist Specialist at Take. This package is a demo for simulation of upload on the Test Pypi website, and it's from class of the Bootcamp developer full stack Python. E-mail:karinatkato@gmail.com.
+Home-page: https://github.com/mayconmota/image-processing-package
+Author: Maycon Mota
+Author-email: maycon@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Projeto: Pacote de Processamento de Imagens
+## Autora: Karina Kato
+### Descomplicando a criaÃ§Ã£o de pacotes de processamento de imagens em Python - Digital Innovation One
+#### Linguagem: Python
+#### Data: 15/04/2022
+-----------------------------------------
+## DescriÃ§Ã£o
+O pacote "image_processing-test" Ã© utilizado para:
+
+- Processing:
+  - CorrespondÃªncia de histograma;
+  - Similaridade estrutural;
+  - Redimensionar imagem;
+
+- Utils:
+  - Ler imagem;
+  - Salvar imagem;
+  - Plotar imagem;
+  - Resultado do grÃ¡fico;
+  - Plotar histograma;
+---------------------------------------------
+## InstalaÃ§Ã£o
+
+- [x] InstalÃ§Ã£o do Pacote
+
+Use o gerenciador de pacotes ```pip install -i https://test.pypi.org/simple/ image-processing-test ```para instalar image_processing-test
+
+```bash
+pip install image-processing-test
+```
+- [x] InstalaÃ§Ã£o de dependÃªncias
+```
+pip install -r requirements.txt
+```
+-------------------------------------------------
+## Exemplo de uso
+
+```python
+from image-processing-test.processing import combination
+combination.find_difference(image1, image2)
+```
+## Autora do Projeto
+Karina Kato
+## Editor (hospedou o projeto no Test Pypi)
+Maycon Mota
+
+## LicenÃ§a
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
